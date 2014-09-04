@@ -1,0 +1,15 @@
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#endif
+
+#import "Pods-environment.h"
+#ifdef __OBJC__
+  #import <CoreData/CoreData.h>
+  #import <AFNetworking/AFNetworking.h>
+  #import "ObjectiveRecord.h"
+  #import "NSBundle+Localized.h"
+  #import "MBProgressHUD.h"
+  #define IS_RETINA ([[UIScreen mainScreen] respondsToSelector:@selector(displayLinkWithTarget:selector:)] && ([UIScreen mainScreen].scale == 2.0))
+  #undef MVLocalizedString
+  #define MVLocalizedString(key, comment)         [[NSBundle bundleWithName:@"MVPagination.bundle"] localizedStringForKey:(key) value:@"" table:nil]
+#endif

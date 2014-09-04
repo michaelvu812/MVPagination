@@ -1,0 +1,79 @@
+/*
+  Localizable.strings
+  JumpDesk
+
+  Created by Michael on 14/7/14.
+  Copyright (c) 2014 Michael Vu. All rights reserved.
+*/
+"Submit" = "Submit";
+"Email" = "Email";
+"Password" = "Password";
+"SyncNoInternetConnection" = "No Internet Connection";
+"OKButton" = "OK";
+"RetryButton" = "Retry";
+"LoginAlertEmail" = "Enter your email";
+"LoginAlertPassword" = "Enter your password";
+"CouldNotConnectToServer" = "Could not connect to server";
+"LoginError" = "Cannot login";
+"LoginToYourAccount" = "Login to your account";
+"ForgetYourPassword" = "Forget your password";
+"ForgetYourPasswordHeader" = "Forget your password?";
+"BackToLogin" = "Back to login";
+"ForgetInstruction" = "Enter your email, we will send the password reset instruction via email.";
+"Login" = "Login";
+"Messages" = "Messages";
+"Directory" = "Directory";
+"th" = "th";
+"st" = "st";
+"nd" = "nd";
+"rd" = "rd";
+"Hello" = "Hello";
+"HappyDay" = "Happy %@!";
+"NoMoreContent" = "No more content";
+"first_name" = "First Name";
+"last_name" = "Last Name";
+"department" = "Department";
+"office_location" = "Location";
+"me" = "My Profile";
+"LogOut" = "Log Out";
+"Edit" = "Edit";
+"Call" = "Call";
+"Message" = "Message";
+"Birthday" = "Birthday";
+"BirthdayDisplay" = "Birthday: %@";
+"StartDate" = "Start Date";
+"WorkStartDateDisplay" = "Work Start Date: %@";
+"GroupDisplay" = "Group: %@";
+"Submit" = "Submit";
+"FullName" = "Full Name";
+"Position" = "Position";
+"Address" = "Address";
+"PhoneNo" = "Phone No";
+"Name" = "Name";
+"SortByName" = "Sort by %@";
+"ByName" = "By %@";
+"City" = "City";
+"State" = "State";
+"Country" = "Country";
+"InvalidEmail" = "Invalid email address";
+"EmailResetInstructions" = "Email sent with password reset instructions.";
+"EmployeeIdIsNotEmpty" = "Employee ID is not empty";
+"CannotGetEmployees" = "Cannot get employees";
+"CannotGetEmployeeDetails" = "Cannot get employee details";
+"CannotGetDeletedEmployeeIds" = "Cannot get deleted employee ids";
+"CannotRetrieveAllOfficeLocations" = "Cannot get all office locations of a company";
+"CannotRetrieveDepartments" = "Cannot get departments of a company";
+"UpdateProfile" = "Update Profile";
+"RequiredFieldsToComplete" = "Required fields to complete";
+"UpdateProfileError" = "Cannot update profile";
+"PleaseFillInYourDetailsBeforeProceeding" = "Please fill in Your details before proceeding...";
+"UploadPhoto" = "Upload Photo";
+"TakePhoto" = "Take Photo";
+"ChoosePhoto" = "Choose Photo";
+"Cancel" = "Cancel";
+"Save" = "Save";
+"SelectAnAddress" = "Select an Address";
+"SelectADepartment" = "Select a Department";
+"AccountSettingsError" = "Cannot retrieve account settings";
+"Error" = "Error";
+"RetrieveDataError" = "Cannot retrieve data";

@@ -1,13 +1,14 @@
 //
 //  MVPaginationController.h
-//  MVPagination
+//  Pods
 //
-//  Created by Michael on 29/8/14.
-//  Copyright (c) 2014 Michael Vu. All rights reserved.
+//  Created by Michael on 30/8/14.
+//
 //
 
 #import <UIKit/UIKit.h>
+#import "MVPaginationTable.h"
 
-@interface MVPaginationController : UIViewController
+@interface MVPaginationController : UIViewController <MVPaginationTableDelegate>
 
 @end

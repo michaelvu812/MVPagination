@@ -1,9 +1,9 @@
 //
 //  MVPaginationController.m
-//  MVPagination
+//  Pods
 //
-//  Created by Michael on 29/8/14.
-//  Copyright (c) 2014 Michael Vu. All rights reserved.
+//  Created by Michael on 30/8/14.
+//
 //
 
 #import "MVPaginationController.h"
@@ -13,37 +13,27 @@
 @end
 
 @implementation MVPaginationController
-
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
     }
     return self;
 }
-
-- (void)viewDidLoad
+- (void)paginateTableView:(MVPaginationTable *)tableView didReceiveResults:(NSMutableArray *)results
 {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
 }
-
-- (void)didReceiveMemoryWarning
+- (void) scrollViewDidScroll:(UIScrollView *)scrollView
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    if ([scrollView isKindOfClass:[MVPaginationTable class]] && scrollView.contentOffset.y > 0.0) {
+        MVPaginationTable *tableView = (MVPaginationTable*)scrollView;
+        float scrollPosition = tableView.contentSize.height - CGRectGetHeight(tableView.frame) - (tableView.shouldShowRefreshing ? tableView.contentOffset.y + tableView.refreshControl.frame.size.height : tableView.contentOffset.y);
+        if (scrollPosition < tableView.footerHeight && !tableView.isLoadingMore && tableView.canLoadMore) {
+            [tableView loadMore];
+        } else if (!tableView.isLoadingMore && !tableView.canLoadMore && ![tableView.tableFooterView viewWithTag:kAppNoMoreLabelTag]) {
+            [tableView addNoMoreView];
+        }
+    }
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 @end

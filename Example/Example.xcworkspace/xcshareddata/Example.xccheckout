@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5FB0F18B-790A-4D1A-9B94-C8F666C82864</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Example</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2903DCD3-0B72-4B75-90FA-CE6A7C2C8D79</key>
+		<string>ssh://github.com/Namvt/MVPagination.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Example/Example.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2903DCD3-0B72-4B75-90FA-CE6A7C2C8D79</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/Namvt/MVPagination.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2903DCD3-0B72-4B75-90FA-CE6A7C2C8D79</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2903DCD3-0B72-4B75-90FA-CE6A7C2C8D79</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MVPagination</string>
+		</dict>
+	</array>
+</dict>
+</plist>
